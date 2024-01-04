@@ -1,3 +1,4 @@
-k2(people)
--- people:speak2()
--- people:speak2();
+function People:speak()
+    self.name = self.name .. "|"
+    print(self, self.name)
+end
