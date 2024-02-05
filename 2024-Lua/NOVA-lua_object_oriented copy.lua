@@ -34,9 +34,9 @@ function class2:data_plus(changed_value)
     print("class2 func2, data_plus_2 =", self.data2) 
 end
 
-function class2.static_func()
-    print("class2.static_func")
-end
+-- function class2.static_func()
+--     print("class2.static_func")
+-- end
 
 local class1_instance1 = class1:new(10)
 class1_instance1:data_plus(5);
@@ -53,3 +53,11 @@ class2_instance2.static_func()
 -- 在class2的new方法中，首先调用了class1的new方法创建了一个实例o，这个实例的元表被设置为class1，这是第一次设置元表。
 -- 然后在class2的new方法中，将这个实例o的元表重新设置为class2，这是第二次设置元表。
 -- 所以，虽然在整个过程中元表被设置了两次，但实际上，对于class2的实例o来说，它的元表只被设置了一次，就是在class2的new方法中被设置为class2。
+
+if class2_instance2.static_func then
+    print("ok1")
+end
+
+if class2.static_func then
+    print("ok1")
+end
