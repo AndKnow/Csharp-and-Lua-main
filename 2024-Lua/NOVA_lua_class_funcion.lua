@@ -1,6 +1,5 @@
-local str = '1'
-local str2 = nil
+local table1 = {1,2,3,4,"qqq"}
 
-local number = tonumber(str2)
-
-print(number)
+for key, value in ipairs(table1) do
+    print(key, value)
+end

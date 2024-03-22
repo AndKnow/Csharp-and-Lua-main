@@ -1,4 +1,3 @@
-function People:speak()
-    self.name = self.name .. "|"
-    print(self, self.name)
+for index, value in ipairs(table2) do
+    print(value)
 end

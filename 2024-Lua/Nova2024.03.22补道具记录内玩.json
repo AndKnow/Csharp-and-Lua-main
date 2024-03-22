@@ -1,0 +1,25 @@
+[{
+  "player_id": "1003670556",
+  "mid": "26",
+  "item_id": "22212302",
+  "change_num": "-13",
+  "stock_num": "0",
+  "timestamp": "2024-03-22 00:00:26.884000 UTC"
+},
+{
+  "player_id": "1000447135",
+  "mid": "8",
+  "item_id": "22212302",
+  "change_num": "-2",
+  "stock_num": "0",
+  "timestamp": "2024-03-22 02:06:00.439000 UTC"
+},
+{
+  "player_id": "1000626135",
+  "mid": "8",
+  "item_id": "22212302",
+  "change_num": "-96",
+  "stock_num": "0",
+  "timestamp": "2024-03-22 02:02:32.656000 UTC"
+}
+]
